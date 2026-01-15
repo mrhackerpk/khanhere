@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="/genetics-store/signin-signup/sign-in/style.css">
+</head>
+<body>
+
+<div class="login-container">
+    <div class="login-card">
+        <h2>Welcome Back</h2>
+        <p>Please sign in to continue</p>
+
+        <form id="loginForm">
+            <div class="input-group">
+                <input type="email" id="email" required>
+                <label>Email</label>
+            </div>
+
+            <div class="input-group">
+                <input type="password" id="password" required>
+                <label>Password</label>
+            </div>
+
+            <button type="submit" class="btn-login">Sign In</button>
+        </form>
+
+        <div class="divider">OR</div>
+        <a href="/genetics-store/signin-signup/sign-up/index.html">
+        <button class="btn-signup">
+            Didn’t have an account? Sign Up
+        </button>
+</a>
+        <p class="error-msg" id="errorMsg"></p>
+    </div>
+</div>
+
+<script src="/genetics-store/signin-signup/sign-in/main.js"></script>
+</body>
+</html>
